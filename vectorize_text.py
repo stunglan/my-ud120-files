@@ -54,7 +54,7 @@ for name, from_person in [("sara", from_sara), ("chris", from_chris)]:
 
             ### use str.replace() to remove any instances of the words
             ### ["sara", "shackleton", "chris", "germani"]
-            ignore_words = ["sara", "shackleton", "chris", "germani"]
+            ignore_words = ["sara", "shackleton", "chris", "germani","sshacklensf","cgermannsf"]
             for ignore_word in ignore_words:
                 #word_extract = str.decode("utf-8").replace(u"\u2022", "*").encode("utf-8")
                 word_extract = word_extract.replace(ignore_word, "")
